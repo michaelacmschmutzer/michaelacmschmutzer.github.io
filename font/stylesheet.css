@@ -1,0 +1,17 @@
+
+
+@font-face {
+  font-family: ebgaramond;
+  src: url('../font/EB_Garamond_Regular.otf') format('otf'),
+       url('../font/EB_Garamond_Regular.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: ebgaramond_italic;
+  src: url('../font/EB_Garamond_Italic.otf') format('otf'),
+       url('../font/EB_Garamond_Italic.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
