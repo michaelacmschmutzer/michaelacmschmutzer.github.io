@@ -5,17 +5,17 @@ Adding custom fonts
 */
 
 @font-face {
-  font-family: 'rubiklight';
-  src: url('../font/rubik-variablefont_wght-webfont.woff2') format('woff2'),
-       url('../font/rubik-variablefont_wght-webfont.woff') format('woff');
+  font-family: 'ebgaramond';
+  src: url('../font/EB_Garamond_Regular.otf') format('opentype'),
+       url('../font/EB_Garamond_Regular.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'rubiklight_italic';
-  src: url('../font/rubik-italic-variablefont_wght-webfont.woff2') format('woff2'),
-       url('../font/rubik-italic-variablefont_wght-webfont.woff') format('woff');
+  font-family: 'ebgaramond_italic';
+  src: url('../font/EB_Garamond_Italic.otf') format('opentype'),
+       url('../font/EB_Garamond_Italic.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
@@ -51,6 +51,7 @@ Generic
 body {
   background-color: white;
   color: black;
+  font-family: 'ebgaramond', serif;
 }
 
 .badge {
@@ -167,7 +168,7 @@ div.separator {
 }
 
 
-/* 
+/*
 ==============================
 Navbar
 ==============================
@@ -188,7 +189,7 @@ Navbar
 }
 
 .navbar-brand {
-  font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'ebgaramond', serif;
 }
 
 .navbar .navbar-brand {
@@ -205,18 +206,17 @@ Navbar
 }
 
 .brand-heading {
-  font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'ebgaramond', serif;
   font-size: max(6vw, 30pt);
 }
 
 
-/* 
+/*
 ==============================
 Front cover
 ==============================
 */
-#Mountains,
-#Cyprus {
+#Ammonite {
   width: 100vw;
   position: fixed;
   background-position: bottom;
@@ -227,21 +227,16 @@ Front cover
   will-change: transform;
 }
 
-#Mountains {
-  background-image: url("../img/Mountains.jpg");
+#Ammonite {
+  background-image: url("../img/Ammonite_fossils_Wellcome_selection.jpg");
 }
-
-#Cyprus {
-  background-image: url("../img/Cyprus.jpg");
-}
-
 #arrow {
   margin-top: -100px;
   color: black;
   font-size: xx-large;
 }
 
-/* 
+/*
 ==============================
 Project card
 ==============================
@@ -302,7 +297,7 @@ Project card
   opacity: 0.5;
 }
 
-/* 
+/*
 ==============================
 Lists
 ==============================
@@ -331,7 +326,7 @@ Lists
   color: white; /* Change icon color on hover */
 }
 
-/* 
+/*
 ==============================
 Modal Popup windows
 ==============================
@@ -411,7 +406,7 @@ Modal Popup windows
 
 .close-modal:hover {
   cursor: pointer;
-  color: black; 
+  color: black;
 }
 
 /* Image Container */
@@ -428,7 +423,7 @@ Modal Popup windows
 
 /* Image Track */
 .image-track {
-  width: 100%; 
+  width: 100%;
   max-width: 100%;
   margin-bottom: 20px;
   display: flex;
@@ -442,7 +437,7 @@ Modal Popup windows
 }
 
 
-/* 
+/*
 ==============================
 Video Container
 ==============================
@@ -454,7 +449,7 @@ Video Container
   margin-bottom: 20px;
   margin-left: -50px;
 }
-/* 
+/*
 ==============================
 Writing in columns
 ==============================
