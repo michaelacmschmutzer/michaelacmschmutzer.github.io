@@ -25,7 +25,7 @@
                 <li class="nav-item nav-link"><a class="nav-link px-3 rounded-pill" style="color: #12255A;" href="index.html#about">About</a></li>
                 <li class="nav-item nav-link"><a class="nav-link px-3 rounded-pill" style="color: #12255A;" href="index.html#cv">CV</a></li>
                 <li class="nav-item nav-link"><a class="nav-link px-3 rounded-pill" style="color: #12255A;" href="index.html#contact">Contact</a></li>
-                <li class="nav-item nav-link"><a class="nav-link px-3 rounded-pill" style="color: #12255A;" href="palass2025.html#results">PalAss 2025</a></li>
+                <li class="nav-item nav-link"><a class="nav-link px-3 rounded-pill" style="color: #12255A;" href="egu2026.html#results">EGU 2026</a></li>
                 <li class="nav-item nav-link"><a class="nav-link px-3 rounded-pill" style="color: #12255A;" href="publications.html">Publications</a></li>
               </ul>
           </div>
@@ -40,6 +40,7 @@
                   <div class="publications-section row col-lg-10 mx-auto py-5 px-4">
                       <div class="col-md-12">
                           <h1 class="pb-2 w-md-50">Additional Results</h1>
+                          <h2 class="pb-2 w-md-50">Global fossil occurrence distribution</h2>
                           <figure>
                               <img src="./img/Fossil_occurrence_density.png" alt="Global fossil occurrences" style="width:800px;height:400px;">
                               <figcaption>Fig. 1 - The global distribution of Maastrichtian shelled cephalopods reported in our dataset is highly heterogenous.
@@ -49,18 +50,21 @@
                                 locations and mark regions with exceptionally high sampling.
                               </figcaption>
                           </figure>
+                          <h2 class="pb-2 w-md-50">Species area-survival relationship</h2>
                           <figure>
-                              <img src="./img/Genus_area_survival.png" alt="Geographic range size vs survival" style="width:800px;height:400px;">
-                              <figcaption>Fig. 2 - The areas of ammonoid and nautilid geographic range sizes do not differ between genera that survived or went
-                                extinct at the K-Pg boundary. Areas shown here are estimated using convex hulls, using the
+                              <img src="./img/Species_area_survival.png" alt="Species geographic range size vs survival" style="width:800px;height:400px;">
+                              <figcaption>Fig. 2 - The areas of ammonoid and nautilid geographic range sizes do not show a statistically significant differences
+                                between species that survived or went extinct at the K-Pg boundary. Areas shown here are estimated using convex hulls, using the
                                 PALEOMAP plate tectonic model (Scotese, 2020). Red diamonds indicate the median, and the red error bars show the interquartile range.
                               </figcaption>
                           </figure>
                           <figure>
-                              <img src="./img/Genus_body_size_survival.png" alt="Body size vs survival" style="width:800px;height:400px;">
-                              <figcaption>Fig. 3 - The body volumes of ammonoids and nautilids do not differ between genera that survived or went
-                                extinct at the K-Pg boundary. Body volumes were sourced from Payne & Heim (2020).  Red diamonds indicate the median,
-                                and the red error bars show the interquartile range.
+                              <img src="./img/Species_area_survival_boot.png" alt="Species geographic range size vs survival" style="width:800px;height:400px;">
+                              <figcaption>Fig. 2 - The areas of bootstrapped ammonoid and nautilid geographic range sizes do not show a statistically significant differences
+                                between species that survived or went extinct at the K-Pg boundary. Areas shown here are estimated using convex hulls, using the
+                                PALEOMAP plate tectonic model (Scotese, 2020). Occurrences were subsampled down to three for all species with more than three occurrences,
+                                and convex hulls redrawn for each subsample. Depending on sample size, either all possible subsamples or 1000 random samples were generated.
+                                Red diamonds indicate the median, and the red error bars show the interquartile range.
                               </figcaption>
                           </figure>
                       </div>
